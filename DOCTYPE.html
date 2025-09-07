@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dépanneur Chez Martin</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f8f8f8; }
+    header { background:#2c3e50; color:white; padding:20px; text-align:center; }
+    nav { background:#34495e; padding:10px; text-align:center; }
+    nav a { color:white; margin:0 15px; text-decoration:none; }
+    section { padding:40px; max-width:900px; margin:auto; }
+    footer { background:#2c3e50; color:white; text-align:center; padding:15px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dépanneur Chez Martin</h1>
+    <p>Votre dépanneur de quartier – ouvert 7 jours sur 7</p>
+  </header>
+
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#produits">Produits</a>
+    <a href="#promotions">Promotions</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="accueil">
+    <h2>Bienvenue</h2>
+    <p>Le Dépanneur Chez Martin vous accueille avec un large choix de snacks, boissons, produits essentiels et plus encore. Toujours proche de vous !</p>
+  </section>
+
+  <section id="produits">
+    <h2>Nos Produits</h2>
+    <ul>
+      <li>Boissons fraîches</li>
+      <li>Snacks et friandises</li>
+      <li>Loterie et tabac</li>
+      <li>Produits ménagers</li>
+    </ul>
+  </section>
+
+  <section id="promotions">
+    <h2>Promotions</h2>
+    <p>🍻 Spécial du mois : 2 bières pour 6,99 $</p>
+    <p>🥤 Boissons gazeuses : 3 pour 5 $</p>
+  </section>
+
+  <section id="contact">
+    <h2>Nous Contacter</h2>
+    <p>📍 123 Rue Principale, Montréal</p>
+    <p>📞 (514) 123-4567</p>
+    <p>🕒 Ouvert 7 jours sur 7 : 7h - 23h</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dépanneur Chez Martin | Tous droits réservés</p>
+  </footer>
+</body>
+</html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rabais Marché Goûte 4 Saisons</title>
+<style>
+body {margin:0; font-family: Arial,sans-serif; background:#f8f8f8;}
+header {background:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat; color:white; text-align:center; padding:120px 20px; position:relative;}
+header::after {content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);}
+header h1 {position:relative; font-size:3em; z-index:1; margin:0;}
+header img {position:relative; z-index:1; width:120px; height:auto; margin-top:20px;}
+nav {background:#16a085; text-align:center; padding:12px;}
+nav a {color:white; margin:0 15px; text-decoration:none; font-weight:bold;}
+.container {max-width:1100px; margin:40px auto; padding:0 20px;}
+.products {display:flex; flex-wrap:wrap; gap:20px; justify-content:center;}
+.card {background:white; padding:15px; border-radius:10px; width:250px; box-shadow:0 2px 6px rgba(0,0,0,0.15); text-align:center;}
+.card img {width:100%; height:160px; object-fit:cover; border-radius:8px;}
+.card h3 {margin:10px 0 6px;}
+.card p {font-size:0.95rem; color:#555;}
+.btn {background:#1abc9c; color:white; border:none; padding:10px 12px; border-radius:6px; cursor:pointer; margin-top:8px;}
+.cart-panel {position:fixed; right:20px; top:80px; width:320px; max-height:70vh; background:white; box-shadow:0 8px 30px rgba(0,0,0,0.15); border-radius:8px; overflow:auto; padding:14px; display:none; z-index:50;}
+.cart-item {display:flex; gap:10px; align-items:center; border-bottom:1px solid #eee; padding:8px 0;}
+.cart-item img {width:60px; height:50px; object-fit:cover; border-radius:6px;}
+.qty {display:flex; gap:6px; align-items:center;}
+.total {font-weight:bold; font-size:1.1rem; text-align:right; margin-top:8px;}
+footer {background:#16a085; color:white; text-align:center; padding:15px; margin-top:40px;}
+video {width:100%; max-width:500px; margin:15px 0; border-radius:10px;}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Rabais Marché Goûte 4 Saisons</h1>
+<img src="https://images.unsplash.com/photo-1603570418813-12d8f15627b4?auto=format&fit=crop&w=120&q=80" alt="Logo Marché">
+</header>
+
+<nav>
+<a href="#accueil">Accueil</a>
+<a href="#videos">Promotions</a>
+<a href="#contact">Contact</a>
+<a href="#" id="openCart">Panier (<span id="cartCount">0</span>)</a>
+</nav>
+
+<section class="container" id="accueil">
+<h2>Nos produits caribéens</h2>
+<div class="products" id="products"></div>
+</section>
+
+<section class="container" id="videos">
+<h2>Promotions Animées</h2>
+<video controls autoplay loop muted>
+<source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+Votre navigateur ne supporte pas les vidéos.
+</video>
+<video controls autoplay loop muted>
+<source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+</video>
+</section>
+
+<section class="container" id="contact">
+<h2>Contactez-nous</h2>
+<p><strong>Adresse :</strong> 456 Rue du Marché, Montréal, QC</p>
+<p><strong>Téléphone :</strong> (514) 987-6543</p>
+<p><strong>Email :</strong> info@marche4saisons.ca</p>
+<p><strong>Heures d’ouverture :</strong> Lundi - Dimanche : 7h - 23h</p>
+</section>
+
+<div class="cart-panel" id="cartPanel">
+<h3>Panier</h3>
+<div id="cartItems"></div>
+<div class="total">Total: $<span id="cartTotal">0.00</span> CAD</div>
+</div>
+
+<footer>
+&copy; 2025 Rabais Marché Goûte 4 Saisons - Tous droits réservés
+</footer>
+
+<script>
+const products=[
+{id:'rizH',title:'Riz Haïtien',country:'Haïti',price:12,img:'https://images.unsplash.com/photo-1592928302963-0f1f02dbd65c?auto=format&fit=crop&w=800&q=80'},
+{id:'sacRiz',title:'Sac de Riz',country:'Haïti',price:45,img:'https://images.unsplash.com/photo-1610089181122-7d6f1f7f0a8f?auto=format&fit=crop&w=800&q=80'},
+{id:'poisG',title:'Pois Guadeloupe',country:'Guadeloupe',price:5,img:'https://images.unsplash.com/photo-1588068500500-7a0c1d8b6f4b?auto=format&fit=crop&w=800&q=80'},
